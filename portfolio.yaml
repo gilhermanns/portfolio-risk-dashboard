@@ -1,0 +1,50 @@
+name: diversified-12-asset-portfolio
+assets:
+  - id: MKT_NASDAQCOM
+    weight: 0.20
+    role: factor
+    label: "Equity market (NASDAQ Composite proxy)"
+  - id: GROWTH_NASDAQ100
+    weight: 0.10
+    role: factor
+    label: "Equity growth tilt (NASDAQ-100 proxy)"
+  - id: BOND_DGS10
+    weight: 0.20
+    role: factor
+    label: "Bonds (10Y Treasury duration-proxy)"
+  - id: OIL_WTI
+    weight: 0.10
+    role: factor
+    label: "Commodity diversifier (WTI crude oil)"
+  - id: AAPL
+    weight: 0.06
+    role: stock
+    label: "Apple (Technology)"
+  - id: XOM
+    weight: 0.06
+    role: stock
+    label: "ExxonMobil (Energy)"
+  - id: JPM
+    weight: 0.06
+    role: stock
+    label: "JPMorgan Chase (Financials)"
+  - id: PFE
+    weight: 0.06
+    role: stock
+    label: "Pfizer (Healthcare)"
+  - id: WMT
+    weight: 0.06
+    role: stock
+    label: "Walmart (Consumer Staples)"
+  - id: GE
+    weight: 0.05
+    role: stock
+    label: "General Electric (Industrials)"
+  - id: BAC
+    weight: 0.03
+    role: stock
+    label: "Bank of America (Financials)"
+  - id: T
+    weight: 0.02
+    role: stock
+    label: "AT&T (Telecom)"
